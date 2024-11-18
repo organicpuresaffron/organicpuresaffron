@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Newspaper } from 'lucide-react';
 
-const newsArticles = [
+export const newsArticles = [
   {
     id: 1,
     source: "The New York Times",
     title: "The Rising Demand for Premium Saffron in Global Cuisine",
     date: "March 15, 2024",
     content: "The demand for premium saffron has seen unprecedented growth in recent years, with top chefs and home cooks alike seeking out the highest quality spices for their culinary creations...",
-    image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    image: "/images/news1.jpg"
   },
   {
     id: 2,
@@ -16,7 +17,7 @@ const newsArticles = [
     title: "Organic Pure Saffron: Setting New Standards in Spice Industry",
     date: "March 10, 2024",
     content: "In an industry often criticized for its lack of transparency, Organic Pure Saffron has emerged as a beacon of authenticity and quality...",
-    image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    image: "/images/news2.jpg"
   },
   {
     id: 3,
@@ -24,7 +25,7 @@ const newsArticles = [
     title: "How This Premium Saffron is Revolutionizing Modern Cooking",
     date: "March 5, 2024",
     content: "The culinary world is experiencing a renaissance in spice usage, with premium saffron leading the charge in innovative cooking techniques...",
-    image: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    image: "/images/news3.jpg"
   }
 ];
 
@@ -39,7 +40,18 @@ export default function NewsSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {newsArticles.map((article) => (
-            <div key={article.id} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+            <Link 
+              key={article.id} 
+              to={`/news/${article.id}`} 
+              className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow"
+            >
+              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+                <img
+                  src={article.image}
+                  alt={article.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div className="flex items-center mb-4">
                 <Newspaper className="h-6 w-6 text-orange-600" />
                 <span className="ml-2 text-sm text-gray-600">{article.source}</span>
@@ -51,7 +63,7 @@ export default function NewsSection() {
                   Read More →
                 </span>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

@@ -13,7 +13,11 @@ export default function Blog() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {blogPosts.map((post) => (
-            <article key={post.id} className="bg-white shadow-lg rounded-lg overflow-hidden">
+            <Link 
+              key={post.id} 
+              to={`/blog/${post.slug}`}
+              className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow"
+            >
               <div className="relative h-64">
                 <img
                   src={post.image}
@@ -25,17 +29,14 @@ export default function Blog() {
                 <div className="text-sm text-orange-600 mb-2">{post.date}</div>
                 <h3 className="text-xl font-serif text-gray-900 mb-2">{post.title}</h3>
                 <p className="text-gray-600 mb-4">{post.excerpt}</p>
-                <Link
-                  to={`/blog/${post.slug}`}
-                  className="text-orange-600 hover:text-orange-700 font-medium inline-flex items-center"
-                >
+                <span className="text-orange-600 hover:text-orange-700 font-medium inline-flex items-center">
                   Read More
                   <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M5 12h14M12 5l7 7-7 7"/>
                   </svg>
-                </Link>
+                </span>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       </div>
