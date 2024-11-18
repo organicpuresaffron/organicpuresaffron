@@ -57,7 +57,7 @@ export default function ProductDetails() {
                     <span className="text-3xl font-serif text-orange-600">{product.price}</span>
                     <span className="text-gray-600">Weight: {product.weight}</span>
                   </div>
-                  <button className="w-full btn-primary rounded-lg">Add to Cart</button>
+                  <button className="w-full btn-primary rounded-lg">For Orders, Reach Out to Us</button>
                 </div>
               </div>
             </div>
@@ -67,4 +67,3 @@ export default function ProductDetails() {
     </div>
   );
 }
-  

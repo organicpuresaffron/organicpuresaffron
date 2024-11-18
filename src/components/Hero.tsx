@@ -22,8 +22,8 @@ export default function Hero() {
           </p>
           <a
             href="#products"
-            className="inline-block px-8 py-4 text-lg font-medium text-white border-2 border-orange-500 hover:bg-orange-500 transition-colors duration-300"
-          >
+            className="inline-block px-8 py-4 text-lg font-medium text-white border-2 border-orange-500 hover:bg-orange-500 transition-colors duration-300 shadow-xl rounded-full hover:shadow-2xl hover:shadow-orange-500/30"
+            >
             Discover Our Collection
           </a>
         </div>

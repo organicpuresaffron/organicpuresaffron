@@ -21,7 +21,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <Flower2 className="h-8 w-8 text-orange-600" />
-              <span className="ml-2 text-2xl font-serif text-gray-900">अध्यातमिक SAFFRON</span>
+              <span className="ml-2 text-2xl font-serif text-gray-900">GLOBAL आश्विना SAFFRON</span>
             </Link>
           </div>
           
