@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 export const trustedOrganizations = [
   {
     id: 1,
-    name: "Michelin Star Restaurants",
-    description: "Used by over 50 Michelin-starred restaurants worldwide",
-    image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    content: "Our saffron is the preferred choice for Michelin-starred chefs worldwide, who value its exceptional quality and consistency. From Paris to Tokyo, leading culinary artists trust our products for their most prestigious dishes."
+    name: "BAPS Shri Swaminarayan Mandir",
+    description: "Endorsed by BAPS Shri Swaminarayan Mandir, Surendranagar, India",
+    image: "https://www.baps.org//Data/Sites/1/Media/LocationImages/147BAPS_Surendranagar.jpg",
+    content: "Our saffron is proudly endorsed by BAPS Shri Swaminarayan Mandir, Surendranagar, India, a symbol of purity and reverence. Recognized for its unmatched quality and consistency, our saffron is integral to the temple's sacred rituals and offerings. Trusted by this esteemed institution, our product is valued for its rich aroma, vibrant color, and exceptional purity — qualities that elevate both spiritual practices and culinary masterpieces. Whether in sacred ceremonies or world-class kitchens, our saffron stands as a testament to excellence and tradition."
   },
   {
     id: 2,
