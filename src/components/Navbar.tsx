@@ -21,13 +21,14 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <Flower2 className="h-8 w-8 text-orange-600" />
-              <span className="ml-2 text-2xl font-serif text-gray-900">GLOBAL आश्विना SAFFRON</span>
+              <span className="ml-2 text-2xl font-serif text-gray-900">Organic Pure Saffron</span>
             </Link>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-700 hover:text-orange-600 transition-colors">Home</Link>
             <a href="#products" onClick={(e) => scrollToSection(e, 'products')} className="text-gray-700 hover:text-orange-600 transition-colors">Products</a>
+            <a href="#courses" onClick={(e) => scrollToSection(e, 'courses')} className="text-gray-700 hover:text-orange-600 transition-colors">Courses</a>
             <a href="#news" onClick={(e) => scrollToSection(e, 'news')} className="text-gray-700 hover:text-orange-600 transition-colors">News</a>
             <Link to="/about" className="text-gray-700 hover:text-orange-600 transition-colors">About</Link>
             <a href="#blog" onClick={(e) => scrollToSection(e, 'blog')} className="text-gray-700 hover:text-orange-600 transition-colors">Blog</a>
@@ -46,6 +47,7 @@ export default function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
             <Link to="/" className="block px-3 py-2 text-gray-700 hover:text-orange-600">Home</Link>
             <a href="#products" onClick={(e) => scrollToSection(e, 'products')} className="block px-3 py-2 text-gray-700 hover:text-orange-600">Products</a>
+            <a href="#courses" onClick={(e) => scrollToSection(e, 'courses')} className="block px-3 py-2 text-gray-700 hover:text-orange-600">Courses</a>
             <a href="#news" onClick={(e) => scrollToSection(e, 'news')} className="block px-3 py-2 text-gray-700 hover:text-orange-600">News</a>
             <Link to="/about" className="block px-3 py-2 text-gray-700 hover:text-orange-600">About</Link>
             <a href="#blog" onClick={(e) => scrollToSection(e, 'blog')} className="block px-3 py-2 text-gray-700 hover:text-orange-600">Blog</a>

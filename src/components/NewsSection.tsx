@@ -77,7 +77,7 @@ export default function NewsSection() {
             >
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <img
-                  src={article.image}
+                  src={article.image}  
                   alt={article.title}
                   className="w-full h-full object-cover"
                 />

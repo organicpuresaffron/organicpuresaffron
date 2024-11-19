@@ -1,10 +1,11 @@
 import React from 'react';
-import { Award } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Award } from 'lucide-react';
 
 export const trustedOrganizations = [
   {
     id: 1,
+    slug:"baps-shri-swaminarayan-mandir",
     name: "BAPS Shri Swaminarayan Mandir",
     description: "Endorsed by BAPS Shri Swaminarayan Mandir, Surendranagar, India",
     image: "https://www.baps.org//Data/Sites/1/Media/LocationImages/147BAPS_Surendranagar.jpg",
@@ -12,16 +13,18 @@ export const trustedOrganizations = [
   },
   {
     id: 2,
+    slug: "luxury-hotels",
     name: "Luxury Hotels",
     description: "Preferred supplier for leading 5-star hotels",
-    image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "/images/trusted2.jpg",
     content: "Five-star hotels across the globe choose our saffron for their signature dishes and exclusive culinary experiences. Our commitment to quality aligns perfectly with the exacting standards of luxury hospitality."
   },
   {
     id: 3,
+    slug: "gourmet-retailers",
     name: "Gourmet Food Retailers",
     description: "Available in premium food stores globally",
-    image: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "/images/trusted3.jpg",
     content: "Leading gourmet food retailers worldwide showcase our saffron in their carefully curated collections of premium ingredients. Our products meet the discriminating tastes of food connoisseurs and home chefs alike."
   }
 ];
@@ -43,7 +46,7 @@ export default function TrustedBy() {
           {trustedOrganizations.map((org) => (
             <Link 
               key={org.id} 
-              to={`/trusted/${org.id}`}
+              to={`/trusted/${org.slug}`}
               className="group text-center"
             >
               <div className="relative h-48 mb-6 rounded-lg overflow-hidden">

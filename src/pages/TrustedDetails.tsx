@@ -3,8 +3,8 @@ import { useParams, Navigate } from 'react-router-dom';
 import { trustedOrganizations } from '../components/TrustedBy';
 
 export default function TrustedDetails() {
-  const { id } = useParams();
-  const org = trustedOrganizations.find(o => o.id === Number(id));
+  const { slug } = useParams();
+  const org = trustedOrganizations.find(o => o.slug === slug);
 
   if (!org) {
     return <Navigate to="/" replace />;
