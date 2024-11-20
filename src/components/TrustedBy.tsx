@@ -13,19 +13,19 @@ export const trustedOrganizations = [
   },
   {
     id: 2,
-    slug: "luxury-hotels",
-    name: "Luxury Hotels",
-    description: "Preferred supplier for leading 5-star hotels",
-    image: "/images/trusted2.jpg",
-    content: "Five-star hotels across the globe choose our saffron for their signature dishes and exclusive culinary experiences. Our commitment to quality aligns perfectly with the exacting standards of luxury hospitality."
+    slug: "jain-temple-motera",
+    name: "Jain Temple in Motera Ahmedabad",
+    description: "Preferred supplier for the prestigious Jain Temple in Motera",
+    image: "https://media.gettyimages.com/id/943783336/photo/india-rajasthan-the-jain-temple-at-ranakpur-the-renowned-jain-temple-at-ranakpur-is-dedicated.jpg?s=612x612&w=0&k=20&c=OeWqigOgJiCUdBYMiMaFkWfZzIHkfwocikzE4jolFn0=", // Make sure to update the image path
+    content: "The Jain Temple in Motera, Ahmedabad, renowned for its architectural grandeur and spiritual significance, uses our saffron in their sacred offerings and religious ceremonies. We take pride in being their trusted supplier, ensuring that the saffron’s purity and quality match the temple's reverence and sacred traditions. Our saffron is a symbol of purity, devotion, and dedication, aligning perfectly with the temple's sacred rituals."  
   },
   {
     id: 3,
-    slug: "gourmet-retailers",
-    name: "Gourmet Food Retailers",
-    description: "Available in premium food stores globally",
-    image: "/images/trusted3.jpg",
-    content: "Leading gourmet food retailers worldwide showcase our saffron in their carefully curated collections of premium ingredients. Our products meet the discriminating tastes of food connoisseurs and home chefs alike."
+    slug: "authentic-indian-weddings",
+    name: "Authentic Indian Weddings",
+    description: "Preferred choice for lavish and auspicious weddings",
+    image: "https://media.istockphoto.com/id/1456875603/photo/buffet-in-an-indian-restaurant.jpg?s=612x612&w=0&k=20&c=qx0iPthMXfrpr4O2H02r6_OmRS5CAB1PEimLSoTom70=", 
+    content: "Our saffron is an essential element in the grandeur of luxurious Indian weddings, adding a touch of opulence to every ceremony. From vibrant wedding feasts to sacred rituals, our premium saffron is trusted by top wedding planners, chefs, and families who seek nothing but the finest. With its rich color, fragrance, and purity, our saffron plays a key role in the unforgettable moments of these grand celebrations."
   }
 ];
 

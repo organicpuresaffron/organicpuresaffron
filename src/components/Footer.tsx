@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Twitter, Instagram, Linkedin, MessageCircle } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, MessageCircle, Youtube } from 'lucide-react';
 
 export default function Footer() {
   const socialLinks = [
@@ -7,7 +7,8 @@ export default function Footer() {
     { icon: <Twitter className="h-6 w-6" />, url: "https://twitter.com/puresaffron" },
     { icon: <Instagram className="h-6 w-6" />, url: "https://instagram.com/organicpuresaffron" },
     { icon: <Linkedin className="h-6 w-6" />, url: "https://linkedin.com/company/organic-pure-saffron" },
-    { icon: <MessageCircle className="h-6 w-6" />, url: "https://wa.me/yourphonenumber" }
+    { icon: <MessageCircle className="h-6 w-6" />, url: "https://wa.me/yourphonenumber" },
+    { icon: <Youtube className="h-6 w-6" />, url: "https://youtube.com/c/OrganicPureSaffron" }, // Add YouTube link here
   ];
 
   return (

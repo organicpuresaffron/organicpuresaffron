@@ -26,7 +26,7 @@ export const blogPosts: BlogPost[] = [
 
       Today, saffron continues to be one of the world's most precious spices, carrying with it thousands of years of cultural and culinary heritage. Its unique flavor, aroma, and color make it an irreplaceable ingredient in countless traditional dishes across Asia and Europe.
     `,
-    image: "https://images.unsplash.com/photo-1593261890590-6542c38c3486?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "blog1.jpeg",
     date: "March 15, 2024",
     author: "Dr. Priya Sharma"
   },
