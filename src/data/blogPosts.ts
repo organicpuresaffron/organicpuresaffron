@@ -26,7 +26,7 @@ export const blogPosts: BlogPost[] = [
 
       Today, saffron continues to be one of the world's most precious spices, carrying with it thousands of years of cultural and culinary heritage. Its unique flavor, aroma, and color make it an irreplaceable ingredient in countless traditional dishes across Asia and Europe.
     `,
-    image: "blog1.jpeg",
+    image: "https://media.gettyimages.com/id/2181777891/photo/the-sun-sets-over-the-blooming-saffron-flower-at-a-field-during-the-saffron-harvest-season-in.jpg?s=612x612&w=0&k=20&c=ipriUVpfBo5FLKUGWSJBGcWZ_Hhj0Pm7cCvYE1seipI=",
     date: "March 15, 2024",
     author: "Dr. Priya Sharma"
   },
@@ -53,7 +53,7 @@ export const blogPosts: BlogPost[] = [
 
       Remember, authentic saffron should have a sweet, floral aroma with slightly metallic notes. When added to warm water, it should slowly release its golden color without leaving any artificial dye behind.
     `,
-    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://media.istockphoto.com/id/2180317646/video/aristocratic-table-with-red-tablecloth-set-up-for-tea-party.jpg?s=640x640&k=20&c=HAQ9aENjkePgn5E39YtVHKYFqlTXxOP-IqIwbuKgYMI= ",
     date: "March 10, 2024",
     author: "Chef Rajesh Kumar"
   },
@@ -92,7 +92,7 @@ export const blogPosts: BlogPost[] = [
       Recommended Daily Intake
       For general health benefits, 15-30mg of saffron per day is typically recommended. Always consult with a healthcare provider before starting any supplement regimen.
     `,
-    image: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://media.istockphoto.com/id/1188562863/photo/grateful-happy-beautiful-indian-girl-holding-hands-on-chest.jpg?s=612x612&w=0&k=20&c=sEuHVz8cWYeVkxOEI34zIy7ymXwJCyDKaBAz1LzfaSU=",
     date: "March 5, 2024",
     author: "Dr. Arun Patel"
   }

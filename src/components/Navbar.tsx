@@ -20,8 +20,8 @@ export default function Navbar() {
         <div className="flex justify-between h-20">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <Flower2 className="h-8 w-8 text-orange-600" />
-              <span className="ml-2 text-2xl font-serif text-gray-900">Organic Pure Saffron</span>
+              <img src="flower1.ico" alt="Flower Icon" className="h-20 w-17" />
+              <span className="ml-2 text-2xl font-serif text-gray-900">आध्यात्मिक SAFFRON</span>
             </Link>
           </div>
           
