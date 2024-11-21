@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import { Facebook, Twitter, Instagram, Linkedin, MessageCircle, Youtube } from 'lucide-react';
 
 export default function Footer() {
@@ -8,7 +9,7 @@ export default function Footer() {
     { icon: <Instagram className="h-6 w-6" />, url: "https://instagram.com/organicpuresaffron" },
     { icon: <Linkedin className="h-6 w-6" />, url: "https://linkedin.com/company/organic-pure-saffron" },
     { icon: <MessageCircle className="h-6 w-6" />, url: "https://wa.me/yourphonenumber" },
-    { icon: <Youtube className="h-6 w-6" />, url: "https://youtube.com/c/OrganicPureSaffron" }, // Add YouTube link here
+    { icon: <Youtube className="h-6 w-6" />, url: "https://youtube.com/c/OrganicPureSaffron" },
   ];
 
   return (
@@ -24,14 +25,22 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-serif mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#products" className="text-gray-400 hover:text-orange-500">Products</a></li>
-              <li><a href="#courses" className="text-gray-400 hover:text-orange-500">Courses</a></li>
-              <li><a href="#about" className="text-gray-400 hover:text-orange-500">About Us</a></li>
-              <li><a href="#blog" className="text-gray-400 hover:text-orange-500">Blog</a></li>
+              <li>
+                <Link to="/product" className="text-gray-400 hover:text-orange-500">Products</Link>
+              </li>
+              <li>
+                <Link to="/courses" className="text-gray-400 hover:text-orange-500">Courses</Link>
+              </li>
+              <li>
+                <Link to="/about" className="text-gray-400 hover:text-orange-500">About Us</Link>
+              </li>
+              <li>
+                <Link to="/blog" className="text-gray-400 hover:text-orange-500">Blog</Link>
+              </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-xl font-serif mb-4">Contact</h3>
+            <h3 className="text-xl font-serif mb-4">Contact Us</h3>
             <p className="text-gray-400 mb-4">
               Email: info@organicpuresaffron.com<br />
               Phone: +91 XXX XXX XXXX
