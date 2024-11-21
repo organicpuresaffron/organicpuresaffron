@@ -13,6 +13,7 @@ import CoursesPage from './pages/CoursesPage';
 import CourseDetails from './pages/CourseDetails';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import ProductsPage from './pages/ProductsPage';  
 
 const App = () => {
   return (
@@ -25,8 +26,8 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
-          <Route path="/product" element={<ProductDetails />} />
           <Route path="/product/:slug" element={<ProductDetails />} />
+          <Route path="/product" element={<ProductsPage />} /> 
           <Route path="/news" element={<NewsPage />} />
           <Route path="/news/:slug" element={<NewsArticle />} />
           <Route path="/trusted/:slug" element={<TrustedDetails />} />

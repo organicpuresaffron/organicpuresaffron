@@ -32,7 +32,7 @@ export default function Navbar() {
           
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-1000 hover:text-orange-500 transition-colors text-xl ">Home</Link>
-            <Link to="/products" className="text-gray-1000 hover:text-orange-500 transition-colors text-xl">Products</Link>
+            <Link to="/product" className="text-gray-1000 hover:text-orange-500 transition-colors text-xl">Products</Link>
             <Link to="/courses" className="text-gray-1000 hover:text-orange-500 transition-colors text-xl ">Courses</Link>
             <Link to="/news" className="text-gray-1000 hover:text-orange-500 transition-colors text-xl">News</Link>
             <Link to="/about" className="text-gray-1000 hover:text-orange-500 transition-colors text-xl">About</Link>
@@ -51,7 +51,7 @@ export default function Navbar() {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
             <Link to="/" className="block px-3 py-2 text-gray-700 hover:text-orange-600">Home</Link>
-            <Link to="/products" className="block px-3 py-2 text-gray-700 hover:text-orange-600">Products</Link>
+            <Link to="/product" className="block px-3 py-2 text-gray-700 hover:text-orange-600">Products</Link>
             <Link to="/courses" className="block px-3 py-2 text-gray-700 hover:text-orange-600">Courses</Link>
             <Link to="/news" className="block px-3 py-2 text-gray-700 hover:text-orange-600">News</Link>
             <Link to="/about" className="block px-3 py-2 text-gray-700 hover:text-orange-600">About</Link>
