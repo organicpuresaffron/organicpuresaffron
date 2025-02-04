@@ -4,6 +4,7 @@ import Courses from '../components/Courses';
 export default function CoursesPage() {
   return (
     <div className="pt-20">
+      {/* Header Section */}
       <div className="relative h-[40vh]">
         <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-800"></div>
         <div className="absolute inset-0 flex items-center justify-center">
@@ -13,6 +14,8 @@ export default function CoursesPage() {
           </div>
         </div>
       </div>
+
+      {/* Courses List */}
       <Courses />
     </div>
   );

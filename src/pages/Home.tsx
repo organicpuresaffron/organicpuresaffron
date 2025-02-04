@@ -22,8 +22,8 @@ const Home = () => {
   return (
     <div id="home">
       <Hero />
-      <Products />
       <Courses />
+      <Products />
       <NewsSection />
       <TrustedBy />
       <Blog />

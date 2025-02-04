@@ -17,3 +17,29 @@
     @apply px-6 py-3 bg-orange-600 text-white font-medium hover:bg-orange-700 transition-colors duration-300;
   }
 }
+@keyframes gradientPulse {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-button {
+  background: linear-gradient(45deg, #6a2c3c, #d04b16, #eb8e6c); /* Darker, richer gradient colors */
+  background-size: 200% 200%;
+  animation: gradientPulse 3s ease infinite; /* Animation duration and type */
+  color: white;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.gradient-button:hover {
+  background-position: 100% 50%; /* Hover effect to accentuate gradient */
+  transform: scale(1.05); /* Slightly scale the button when hovered */
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.7), 0 0 20px rgba(255, 165, 0, 0.5); /* Glow effect on hover */
+}

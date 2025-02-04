@@ -86,35 +86,24 @@ export default function About() {
             <div className="text-center">
               <div className="relative h-64 mb-6 rounded-lg overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                  src="/mayank.jpg"
                   alt="CEO"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-serif text-gray-900 mb-2">Rajesh Kumar</h3>
-              <p className="text-gray-600">CEO & Founder</p>
+              <h3 className="text-xl font-serif text-gray-900 mb-2">Mayank Dabhi</h3>
+              <p className="text-gray-600">Co-Founder</p>
             </div>
             <div className="text-center">
               <div className="relative h-64 mb-6 rounded-lg overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                  src="/rishabh.png"
                   alt="Head of Production"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-serif text-gray-900 mb-2">Priya Sharma</h3>
-              <p className="text-gray-600">Head of Production</p>
-            </div>
-            <div className="text-center">
-              <div className="relative h-64 mb-6 rounded-lg overflow-hidden">
-                <img
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                  alt="Quality Control"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-serif text-gray-900 mb-2">Arun Patel</h3>
-              <p className="text-gray-600">Head of Quality Control</p>
+              <h3 className="text-xl font-serif text-gray-900 mb-2">Rishabh Maloo</h3>
+              <p className="text-gray-600">Co-Founder</p>
             </div>
           </div>
         </div>

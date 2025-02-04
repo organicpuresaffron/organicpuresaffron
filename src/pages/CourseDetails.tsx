@@ -13,6 +13,7 @@ export default function CourseDetails() {
 
   return (
     <div className="pt-20">
+      {/* Header Section */}
       <div className="relative h-[50vh]">
         <img
           src={course.image}
@@ -28,19 +29,41 @@ export default function CourseDetails() {
         </div>
       </div>
 
+      {/* Course Details Section */}
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div className="bg-white rounded-lg shadow-lg p-8">
+          {/* Course Duration and Price */}
           <div className="flex items-center gap-8 mb-8">
             <div className="flex items-center text-gray-700">
               <Clock className="h-6 w-6 mr-2" />
               <span className="text-lg">{course.duration}</span>
             </div>
-            <div className="flex items-center text-gray-700">
-              <DollarSign className="h-6 w-6 mr-2" />
-              <span className="text-lg">{course.price}</span>
+          </div>
+
+          {/* Pricing Information */}
+          <div className="mb-8">
+            <h2 className="text-2xl font-serif text-gray-900 mb-4">Pricing Options</h2>
+            <div className="space-y-4">
+              <div className="flex justify-between text-sm font-medium">
+                <div className="text-gray-700">1-day Online:</div>
+                <div className="text-orange-600">{course.pricing.online}</div>
+              </div>
+              <div className="flex justify-between text-sm font-medium">
+                <div className="text-gray-700">1-day Offline:</div>
+                <div className="text-orange-600">{course.pricing.offline}</div>
+              </div>
+              <div className="flex justify-between text-sm font-medium">
+                <div className="text-gray-700">90-day Internship:</div>
+                <div className="text-orange-600">{course.pricing.internship90}</div>
+              </div>
+              <div className="flex justify-between text-sm font-medium">
+                <div className="text-gray-700">1-year Internship:</div>
+                <div className="text-orange-600">{course.pricing.internship1Year}</div>
+              </div>
             </div>
           </div>
 
+          {/* What You'll Learn */}
           <div className="mb-8">
             <h2 className="text-2xl font-serif text-gray-900 mb-4">What You'll Learn</h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -53,6 +76,7 @@ export default function CourseDetails() {
             </ul>
           </div>
 
+          {/* Register Button */}
           <a
             href={course.formLink}
             target="_blank"
