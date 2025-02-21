@@ -35,7 +35,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img src="/icon.png" alt="Flower Icon" className="h-20 w-18 text-orange-600" />
-              <span className="ml-2 text-2xl font-serif text-gray-900">AASHWINA INTERNATIONAL SAFFRON</span>
+              <span className="ml-2 text-2xl font-serif text-gray-900">AASHWINA SAFFRON</span>
 
             </Link>
           </div>
