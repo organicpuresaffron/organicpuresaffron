@@ -29,17 +29,17 @@ const mediaItems: MediaItem[] = [
   {
     id: 3,
     type: 'image',
-    url: 'media5.png',
+    url: '/media5.png',
     title: 'Saffron Corms Journey',
     description: 'The journey of saffron corms from our lab'
   },
   {
     id: 4,
     type: 'video',
-    url: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    thumbnail: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&q=80',
-    title: 'Team Culture',
-    description: 'Experience our vibrant team culture'
+    url: 'https://www.youtube.com/watch?v=NJ7m7umTGes',
+    thumbnail: '/news6.png',
+    title: 'Swarrnim University presents Aashwina Saffron',
+    description: 'Thank you to Swarrnim University'
   }
 ];
 
